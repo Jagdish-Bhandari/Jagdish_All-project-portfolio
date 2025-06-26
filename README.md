@@ -29,13 +29,13 @@ The goal is to uncover meaningful patterns in how career paths, satisfaction lev
 * 📈 Data Analysis – KPIs
 Key metrics identified to evaluate the work-life landscape:
 
-- Average Job Satisfaction Rating
-- Percentage of Respondents Feeling Safe/Respected at Work
-- Distribution of Annual Salary Ranges
-- Alignment of Jobs with Educational Background
-- Industry-wise Job Satisfaction Trends
-- Mental Health Impact Score Across Age Groups
-- Proportion Interested in Further Education vs Barriers Faced These KPIs helped surface high-level insights for deeper exploration.
+  - Average Job Satisfaction Rating
+  - Percentage of Respondents Feeling Safe/Respected at Work
+  - Distribution of Annual Salary Ranges
+  - Alignment of Jobs with Educational Background
+  - Industry-wise Job Satisfaction Trends
+  - Mental Health Impact Score Across Age Groups
+  - Proportion Interested in Further Education vs Barriers Faced These KPIs helped surface high-level insights for deeper exploration.
 
 ### work_life_analysis Dashboard overview
 ![Screenshot 2025-06-26 163505](https://github.com/user-attachments/assets/fc04b538-d6ba-4c08-9e73-b629f372b888)
