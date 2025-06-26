@@ -13,6 +13,8 @@ The dashboard also includes DAX calculations that reveal customer purchase patte
 #### _Also published this on Power-BI_
 ![Supply chain Dashboard](https://github.com/user-attachments/assets/cb64d5a5-6640-4cf1-9f22-1600b1787f58)
 
+🔗 *Thank you for exploring this analysis! For the interactive dashboard and source files, please refer to the repository.*
+
 
 ## [project-2: Wrok life Analysis Overview](https://github.com/Jagdish-Bhandari/Work_life_analysis.git)
 #### ***A primary Data prespective***
@@ -39,6 +41,8 @@ Key metrics identified to evaluate the work-life landscape:
 
 ### work_life_analysis Dashboard overview
 ![Screenshot 2025-06-26 163505](https://github.com/user-attachments/assets/fc04b538-d6ba-4c08-9e73-b629f372b888)
+
+🔗 *Thank you for exploring this analysis! For the interactive dashboard and source files, please refer to the repository.*
 
 
 
