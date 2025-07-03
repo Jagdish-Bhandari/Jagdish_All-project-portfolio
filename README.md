@@ -155,14 +155,16 @@ END;
 set SQl_safe_updates = 0;
 select * from `debit and credit bank_data`;
 ```
-
 ---
+
 ### Suspicious Transaction Frequency:
 ```sql
 select `Account Number`,Threshold,sum(amount) as Trans_amount , count(*) as trans_count from `debit and credit bank_data`
 where threshold = "High_Trans"
 group by `Account Number`,Threshold order by trans_amount desc limit 10;
 ```
+
+---
 
 <span style="font-size: 85%;">🔍 *Explore more insightful SQL queries and data projects in my GitHub profile — just click on the repository title above!*</span>
 
