@@ -174,7 +174,7 @@ group by `Account Number`,Threshold order by trans_amount desc limit 10;
 
 ---
 
-<span style="font-size: 85%;">🔍 *Explore more insightful SQL queries and data projects in my GitHub profile — just click on the repository title above!*</span>
+🔍 *Explore more insightful SQL queries and data projects in my GitHub profile — just click on the repository title above!*
 
 🔗 *Thank you for exploring this analysis! For the interactive dashboard and source files, please refer to the repository.*
 
