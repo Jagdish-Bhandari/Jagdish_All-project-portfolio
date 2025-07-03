@@ -141,23 +141,32 @@ from `debit and credit bank_data`
 group by Years,Monthly,Month_names,weekly, Day_wise;
 ```
 ---
-###  High-Risk Transaction Flag
-> Here, added a column named threshold to specify hight-risk  and normal _transactions based on avg_trans amount
-```sql
-Alter table `debit and credit bank_data` add column Threshold varchar(25);
 
+###  High-Risk Transaction Flag
+
+> Here, added a column named threshold to specify hight-risk  and normal _transactions based on avg_trans amount<
+```sql
+-- Disable safe updates to allow data modification
+SET SQL_SAFE_UPDATES = 0;
+
+-- Add a column for transaction type
+ALTER TABLE `debit and credit bank_data` 
+ADD COLUMN Threshold VARCHAR(25);
+
+-- Update the column based on amount threshold
 UPDATE `debit and credit bank_data`
 SET Threshold = CASE 
- WHEN Amount > 2549 THEN 'High_Trans'
- ELSE 'Normal_Trans'
+    WHEN Amount > 2549 THEN 'High_Trans'
+    ELSE 'Normal_Trans'
 END;
 
-set SQl_safe_updates = 0;
-select * from `debit and credit bank_data`;
+-- View updated records
+SELECT * FROM `debit and credit bank_data`;
+
 ```
----
 
 ### Suspicious Transaction Frequency:
+
 ```sql
 select `Account Number`,Threshold,sum(amount) as Trans_amount , count(*) as trans_count from `debit and credit bank_data`
 where threshold = "High_Trans"
