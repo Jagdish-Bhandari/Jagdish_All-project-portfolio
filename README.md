@@ -144,7 +144,6 @@ group by Years,Monthly,Month_names,weekly, Day_wise;
 
 ###  High-Risk Transaction Flag
 
-> Here, added a column named threshold to specify hight-risk  and normal _transactions based on avg_trans amount<
 ```sql
 -- Disable safe updates to allow data modification
 SET SQL_SAFE_UPDATES = 0;
